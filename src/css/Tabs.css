@@ -1,0 +1,21 @@
+.containerTabs th {
+    background-color: #A1C349
+}
+
+.containerTabs table {
+    width: 100%;
+    text-align: center;
+}
+
+.containerTabs tbody tr {
+    background-color: #A0E7E5;
+    text-align: center;
+}
+
+.corLinhaPar {
+    background-color: #7e4242
+}
+
+.corLinhaImpar {
+    background-color: #deeeef
+}

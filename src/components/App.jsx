@@ -3,6 +3,8 @@ import Card from "./Card"
 import PrimeiroComponente from "./PrimeiroComponente"
 import '../css/Index.css'
 import ValidadorNotas from "./ValidadorNotas"
+import Repeticao from "./Repeticao"
+
 
 
 export default function App() {
@@ -16,11 +18,13 @@ export default function App() {
             </Card>
             <Card titulo='Um card dentro de um card'>
                 <PrimeiroComponente>
-                    <Card/>
                 </PrimeiroComponente>
             </Card>
             <Card>
                 <ValidadorNotas nome='Raul Candido' nota={4}/>
+            </Card>
+            <Card titulo='Repetições'>
+                <Repeticao/>
             </Card>
         </div>
 
